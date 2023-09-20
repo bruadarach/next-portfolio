@@ -1,0 +1,67 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1536px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: var(--font-archivo-black);
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fae0f1;
+}
+
+.logo b {
+  font-size: 50px;
+  color: #9e2e9e;
+}
+
+.menus {
+  display: flex;
+  gap: 30px;
+}
+
+.menu {
+  cursor: pointer;
+  font-size: 18px;
+  font-family: var(--font-nunito-sans);
+  font-weight: 400;
+  color: #635656;
+}
+
+.mobileMenu {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .menus {
+    display: none;
+  }
+
+  .mobileMenu {
+    display: block;
+    color: #9e2e9e;
+  }
+}

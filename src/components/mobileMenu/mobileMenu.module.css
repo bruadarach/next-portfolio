@@ -1,0 +1,41 @@
+.hamburger {
+  width: 34px;
+  height: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
+
+.responsiveMenus {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  z-index: 999;
+}
+
+.responsiveMenu {
+  color: white;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  transition: color 0.05s;
+  padding: 30px 0;
+  border-bottom: 0.1px solid #5d5d5d;
+}
+
+.responsiveMenu:hover {
+  color: #9e2e9e;
+}

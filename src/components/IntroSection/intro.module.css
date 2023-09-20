@@ -1,0 +1,51 @@
+.container {
+  padding: 300px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hello {
+  font-size: 26px;
+  font-weight: 600;
+  color: #f1bbdd;
+}
+
+.hello::after {
+  content: "";
+  display: inline-block;
+  border-bottom: 3.5px solid #9e2e9e;
+  margin-left: 5px;
+  width: 28px;
+}
+
+.name {
+  font-size: 66px;
+  font-weight: 800;
+  font-family: var(--font-inter);
+  text-transform: uppercase;
+}
+
+.job {
+  color: #cdcbcb;
+  font-size: 34px;
+}
+
+.cv button {
+  border: none;
+  padding: 14px 24px;
+  background-color: #9e2e9e;
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+  margin-top: 30px;
+}
+
+.cv button:hover {
+  background-color: #740979;
+}
