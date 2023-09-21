@@ -1,0 +1,18 @@
+.cv button {
+  border: none;
+  padding: 14px 24px;
+  background-color: #9e2e9e;
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+  margin-top: 20px;
+}
+
+.cv button:hover {
+  background-color: #740979;
+}

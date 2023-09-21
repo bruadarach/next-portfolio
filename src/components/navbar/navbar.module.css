@@ -1,9 +1,14 @@
-.sticky {
+.sticky,
+.isScrolled {
   position: fixed;
   top: 0;
   background-color: white;
   z-index: 999;
   width: 100%;
+}
+
+.isScrolled {
+  border-bottom: 0.5px solid #fae0f1;
 }
 
 .container {
@@ -41,8 +46,20 @@
   cursor: pointer;
   font-size: 18px;
   font-family: var(--font-nunito-sans);
-  font-weight: 400;
-  color: #635656;
+  font-weight: 800;
+  color: #cdcbcb;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu:first-child {
+  background-image: linear-gradient(45deg, #f9c5f9, #6a2b6d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.menu:hover {
+  color: #fae0f1;
 }
 
 .mobileMenu {

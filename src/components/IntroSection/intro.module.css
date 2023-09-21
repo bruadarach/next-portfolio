@@ -1,8 +1,11 @@
 .container {
-  padding: 300px 0;
+  padding: 250px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.textSection {
 }
 
 .hello {
@@ -31,21 +34,98 @@
   font-size: 34px;
 }
 
-.cv button {
-  border: none;
-  padding: 14px 24px;
-  background-color: #9e2e9e;
-  color: white;
-  font-size: 16px;
-  border-radius: 30px;
-  cursor: pointer;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-decoration: none;
-  transition: all 0.1s ease-in-out;
-  margin-top: 30px;
+.imageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.cv button:hover {
-  background-color: #740979;
+.imageWrapper {
+  min-width: 400px;
+  min-height: 400px;
+  z-index: 99;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    padding: 180px 0;
+    gap: 70px;
+  }
+
+  .textSection {
+    order: 2;
+  }
+
+  .imageSection {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 66px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .imageWrapper {
+    min-width: 360px;
+    min-height: 360px;
+  }
+
+  .name {
+    font-size: 52px;
+  }
+
+  .job {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .imageWrapper {
+    min-width: 300px;
+    min-height: 300px;
+  }
+
+  .name {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .imageWrapper {
+    min-width: 250px;
+    min-height: 250px;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .job {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .imageWrapper {
+    min-width: 200px;
+    min-height: 200px;
+  }
+
+  .name {
+    font-size: 36px;
+  }
+
+  .job {
+    font-size: 20px;
+  }
 }

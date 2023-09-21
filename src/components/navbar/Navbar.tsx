@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./navbar.module.css";
 import Link from "next/link";
 import MobileMenu from "../mobileMenu/MobileMenu";
@@ -19,8 +19,8 @@ export const navLinks = [
     path: "#skill",
   },
   {
-    title: "Projects",
-    path: "#project",
+    title: "Portfolio",
+    path: "#portfolio",
   },
   {
     title: "Contact",
@@ -30,9 +30,23 @@ export const navLinks = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      setIsScrolled(scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className={styles.sticky}>
+    <nav className={isScrolled ? styles.isScrolled : styles.sticky}>
       <div className={styles.container}>
         <div className={styles.logo}>
           <Link href="/">
