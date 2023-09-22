@@ -12,3 +12,10 @@
     padding-right: 40px;
   }
 }
+
+@media screen and (max-width: 280px) {
+  .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

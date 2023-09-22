@@ -25,10 +25,10 @@ const Intro = () => {
             width={400}
             height={400}
             priority
-            layout="responsive"
-            objectFit="cover"
             style={{
               borderRadius: "50%",
+              objectFit: "cover",
+              width: "100%",
             }}
           />
         </div>

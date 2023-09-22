@@ -82,3 +82,10 @@
     color: #9e2e9e;
   }
 }
+
+@media screen and (max-width: 280px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
