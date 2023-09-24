@@ -7,7 +7,7 @@
   font-weight: 800;
   text-align: center;
   color: #f1bbdd;
-  margin-bottom: 70px;
+  margin: 70px 0;
 }
 
 .title span {
@@ -68,10 +68,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  /* .contents {
-    min-width: 300px;
-  } */
-
   .imageWrapper {
     min-width: 300px;
   }
@@ -82,10 +78,6 @@
 }
 
 @media screen and (max-width: 380px) {
-  /* .contents {
-    min-width: 250px;
-  } */
-
   .title {
     font-size: 38px;
   }
@@ -100,10 +92,6 @@
 }
 
 @media screen and (max-width: 280px) {
-  /* .contents {
-    min-width: 150px;
-  } */
-
   .title {
     font-size: 32px;
   }
