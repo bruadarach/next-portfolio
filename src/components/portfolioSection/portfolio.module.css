@@ -1,0 +1,219 @@
+.container {
+  padding: 100px;
+  width: 100%;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f1bbdd;
+  margin: 70px 0;
+  text-align: center;
+}
+
+.title span {
+  color: #9e2e9e;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  align-items: stretch;
+}
+
+.project {
+  width: 100%;
+  padding: 30px;
+  font-family: var(--font-nunito-sans);
+  border: 0.9px solid #a1a1a1;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.imageSection {
+  flex: 2;
+  width: 300px;
+  height: 320px;
+}
+
+.imageWrapper {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.textSection {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  color: #b7b7b7;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.desc {
+  text-align: justify;
+}
+
+.skills {
+  margin: 10px 0;
+}
+
+.skill {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.link {
+  padding: 7px 10px;
+  border-radius: 7px;
+  background-color: #9e2e9e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+}
+
+.link:hover {
+  background-color: #f1bbdd;
+}
+
+@media screen and (max-width: 1500px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 5rem;
+  }
+
+  .imageSection {
+    flex: 1;
+  }
+
+  .tectSection {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .project {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+  }
+
+  .imageSection {
+    flex: 1;
+    width: 100%;
+  }
+
+  .imageWrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .project {
+    width: 100%;
+    padding: 2.5rem;
+  }
+
+  .tags {
+    font-size: 12px;
+  }
+
+  .skills {
+    display: flex;
+  }
+
+  .skill {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    padding: 100px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project {
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .project {
+    min-width: 250px;
+  }
+
+  .tags {
+    flex-wrap: wrap;
+  }
+
+  .links {
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .link {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .project {
+    min-width: 150px;
+  }
+}

@@ -94,6 +94,7 @@
 
   .skillBox {
     min-width: 400px;
+    width: 100%;
   }
 
   .skillBox ul {
