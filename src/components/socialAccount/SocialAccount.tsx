@@ -4,56 +4,41 @@ import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { RxNotionLogo } from "react-icons/rx";
 
+const socialAccounts = [
+  {
+    name: "Github",
+    href: "https://github.com/bruadarach",
+    icon: <AiFillGithub size={32} style={{ cursor: "pointer" }} />,
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/sujeongji",
+    icon: <AiFillLinkedin size={33} style={{ cursor: "pointer" }} />,
+  },
+  {
+    name: "Notion",
+    href: "https://sujeongji.notion.site/SUJEONG-JI-675d7a916010494ea8c38ff771aafedf?pvs=4",
+    icon: <RxNotionLogo size={32} style={{ cursor: "pointer" }} />,
+  },
+];
+
 const SocialAccount = () => {
   return (
     <>
       <div className={styles.social}>
         <ul>
-          <li>
-            <Link
-              href="https://github.com/bruadarach"
-              target="_blank"
-              passHref
-              rel="noopener noreferrer"
-            >
-              <AiFillGithub
-                size={35}
-                style={{
-                  cursor: "pointer",
-                }}
-              />
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="https://www.linkedin.com/in/sujeongji"
-              target="_blank"
-              passHref
-              rel="noopener noreferrer"
-            >
-              <AiFillLinkedin
-                size={36}
-                style={{
-                  cursor: "pointer",
-                }}
-              />
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="https://sujeongji.notion.site/SUJEONG-JI-675d7a916010494ea8c38ff771aafedf?pvs=4"
-              target="_blank"
-              passHref
-              rel="noopener noreferrer"
-            >
-              <RxNotionLogo
-                size={35}
-                style={{
-                  cursor: "pointer",
-                }}
-              />
-            </Link>
-          </li>
+          {socialAccounts.map((account, index) => (
+            <li key={index}>
+              <Link
+                href={account.href}
+                target="_blank"
+                passHref
+                rel="noopener noreferrer"
+              >
+                {account.icon}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </>

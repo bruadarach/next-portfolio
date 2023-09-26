@@ -14,30 +14,39 @@
 }
 
 .responsiveMenus {
+  background-color: pink;
+  width: 100% !important;
+  height: calc(100vh - 100px);
   position: absolute;
   top: 100px;
   left: 0;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 22px;
   z-index: 999;
 }
 
 .responsiveMenu {
+  flex: 1;
   color: white;
+  margin: 0;
   width: 100%;
+  height: 100%;
   background-color: black;
-  text-align: center;
   transition: color 0.05s;
   border-bottom: 0.1px solid #5d5d5d;
 }
 
 .responsiveMenu a {
-  padding: 24px 0;
-  display: block;
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .responsiveMenu:hover {
