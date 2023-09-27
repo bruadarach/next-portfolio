@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inputContainer {
+  flex: 1;
+  position: relative;
+}
+
+.container label {
+  position: absolute;
+  margin-top: -11px;
+  margin-left: 20px;
+  background-color: white;
+  font-size: 15px;
+  padding: 0 5px;
+  color: #a8a8a8;
+  transition: color 0.3s ease-in-out; /* 글자색 전환 애니메이션 추가 */
+}
+
+.container input,
+.container textarea {
+  width: 100%;
+  padding: 12px 23px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: var(--font-open-sans);
+  transition: border-color 0.3s ease-in-out; /* 테두리 색상 전환 애니메이션 추가 */
+}
+
+.container textarea {
+  height: 210px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.container input:focus,
+.container textarea:focus {
+  outline: none;
+  border: 2px solid #9e2e9e;
+}
+
+.container input[type="submit"] {
+  border: none;
+  background-color: #9e2e9e;
+  color: #fff;
+  font-size: 16px;
+  font-family: var(--font-open-sans);
+  cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+  background-color: #a84aa8;
+  transition: all 0.3s ease-out;
+}

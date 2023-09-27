@@ -1,3 +1,150 @@
 .container {
-  height: 800px;
+  padding: 100px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #9e2e9e;
+  margin: 70px 0;
+  text-align: center;
+}
+
+.title span {
+  color: #f1bbdd;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 50px;
+}
+
+.infoContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.iconWrapper {
+  flex: 1;
+  position: relative;
+}
+
+.infoWrapper h2 {
+  font-size: 28px;
+}
+
+.infoWrapper p {
+  font-size: 18px;
+  color: rgb(170, 169, 169);
+}
+
+.icon {
+  font-size: 40px;
+  color: #9e2e9e;
+  position: absolute;
+  top: 7px;
+  left: 30px;
+}
+
+.infoWrapper {
+  flex: 5;
+}
+
+.messageContainer {
+  flex: 1.5;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1330px) {
+  .messageContainer {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contact {
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .infoContainer {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+  }
+
+  .info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .iconWrapper {
+    flex: 1;
+    text-align: center;
+  }
+
+  .infoWrapper {
+    flex: 1;
+    text-align: center;
+  }
+
+  .iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 2;
+  }
+
+  .icon {
+    position: static;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    padding: 100px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container {
+    min-width: 250px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .container {
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .container {
+    min-width: 150px;
+  }
 }
