@@ -1,5 +1,3 @@
-"use client";
-import React from "react";
 import styles from "./contact.module.css";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { ContactEmail } from "../contactEmail/ContactEmail";

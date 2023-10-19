@@ -17,7 +17,7 @@
   font-size: 15px;
   padding: 0 5px;
   color: #a8a8a8;
-  transition: color 0.3s ease-in-out; /* 글자색 전환 애니메이션 추가 */
+  transition: color 0.3s ease-in-out;
 }
 
 .container input,
@@ -28,7 +28,7 @@
   border-radius: 5px;
   font-size: 16px;
   font-family: var(--font-open-sans);
-  transition: border-color 0.3s ease-in-out; /* 테두리 색상 전환 애니메이션 추가 */
+  transition: border-color 0.3s ease-in-out;
 }
 
 .container textarea {

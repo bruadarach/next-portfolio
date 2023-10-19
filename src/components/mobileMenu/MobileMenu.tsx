@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styles from "./mobileMenu.module.css";
 import { navLinks } from "../navbar/Navbar";
 import Link from "next/link";

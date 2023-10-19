@@ -1,5 +1,6 @@
 "use client";
-import React, { useRef } from "react";
+
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styles from "./contactEmail.module.css";
 
@@ -19,14 +20,14 @@ export const ContactEmail = () => {
       "message"
     ) as HTMLTextAreaElement;
 
-    const nameRegex = /^[가-힣a-zA-Z\s]+$/;
-    if (!name.value.match(nameRegex)) {
-      alert("Please enter a valid name with English or Korean characters.");
+    if (!name.value || !email.value || !message.value) {
+      alert("Please fill in all fields before sending.");
       return;
     }
 
-    if (!name.value || !email.value || !message.value) {
-      alert("Please fill in all fields before sending.");
+    const nameRegex = /^[가-힣a-zA-Z\s]+$/;
+    if (!name.value.match(nameRegex)) {
+      alert("Please enter a valid name with English or Korean characters.");
       return;
     }
 

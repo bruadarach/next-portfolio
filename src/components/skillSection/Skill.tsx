@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./skill.module.css";
 import { BsCheckCircleFill } from "react-icons/bs";
 

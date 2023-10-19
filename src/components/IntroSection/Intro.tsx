@@ -1,7 +1,5 @@
-import React from "react";
 import styles from "./intro.module.css";
 import Image from "next/image";
-import Link from "next/link";
 import DownloadPDF from "../downloadPDF/DownloadPDF";
 import SocialAccount from "../socialAccount/SocialAccount";
 
