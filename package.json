@@ -1,5 +1,5 @@
 {
-  "name": "next-portfolio",
+  "name": "portfolio-sujeongji",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,11 +10,6 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
-    "@types/node": "20.6.2",
-    "@types/react": "18.2.22",
-    "@types/react-dom": "18.2.7",
-    "eslint": "^8.49.0",
-    "eslint-config-next": "13.4.19",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -24,6 +19,11 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",
+    "@types/node": "20.6.2",
+    "@types/react": "18.2.22",
+    "@types/react-dom": "18.2.7",
+    "eslint": "^8.49.0",
+    "eslint-config-next": "13.4.19",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "prettier": "^3.0.3"
