@@ -72,7 +72,7 @@ const projects = [
       ["Vercel", "/vercel.png"],
     ],
     githubLink: "https://github.com/bruadarach/next-portfolio",
-    liveDemoLink: "https://github.com/bruadarach/next-portfolio",
+    liveDemoLink: "https://next-portfolio-bruadarach.vercel.app",
   },
 ];
 
