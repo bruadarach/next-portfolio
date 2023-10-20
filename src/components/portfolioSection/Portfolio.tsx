@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const projects = [
   {
-    name: "Moongtels",
-    tags: ["#Refactoring", "#Full-stack", "#MERN"],
+    name: "Moongtel-refactored",
+    tags: ["#Full-stack", "#MERN", "#Redux-toolkit"],
     description:
       "This is a solo full-stack project that I refactored my previous team project, 'Moongtel'.",
     skills: [
@@ -13,18 +13,20 @@ const projects = [
       ["TypeScript", "/typescript.svg"],
       ["Redux-toolkit", "/redux.svg"],
       ["Webpack", "/webpack.svg"],
+      ["Yarn Berry", "/yarn-berry.png"],
       ["Styled-components", "/styledcomponents.png"],
       ["Node", "/node.svg"],
       ["MongoDB", "/mongodb.svg"],
       ["NaverCloud", "/navercloud.png"],
       ["Firebase", "/firebase.svg"],
+      ["Render", "/render.png"],
     ],
     githubLink: "https://github.com/bruadarach/moongtels",
     liveDemoLink: "https://moongtels.onrender.com",
   },
   {
     name: "Moongtel",
-    tags: ["#Front-end", "#Next.js"],
+    tags: ["#Front-end", "#Next.js", "#Recoil"],
     description:
       "This is a team project in which I participated as a frontend developer. (At present, it is not connected to a server.)",
     skills: [
@@ -34,22 +36,43 @@ const projects = [
       ["Recoil", "/recoil.png"],
       ["Styled-components", "/styledcomponents.png"],
       ["Java", "/java.svg"],
+      ["Vercel", "/vercel.png"],
     ],
     githubLink: "https://github.com/codestates-seb/seb39_main_012",
     liveDemoLink: "https://moongtel.vercel.app/",
+  },
+
+  {
+    name: "Bruadarach",
+    tags: ["#Full-stack", "#Next.js", "#Next-Auth"],
+    description:
+      "This is a full-stack project, built with Next.js and integrated with MongoDB. It offers  OAuth by Next-Auth.",
+    skills: [
+      ["Next", "/next.svg"],
+      ["Next-Auth", "/next-auth.png"],
+      ["React", "/react.svg"],
+      ["TypeScript", "/typescript.svg"],
+      ["MongoDB", "/mongodb.svg"],
+      ["Prisma", "/prisma.svg"],
+      ["Firebase", "/firebase.svg"],
+      ["Vercel", "/vercel.png"],
+    ],
+    githubLink: "https://github.com/bruadarach/next-blog",
+    liveDemoLink: "https://next-bruadarach.vercel.app",
   },
   {
     name: "Portfolio",
     tags: ["#Front-end", "#Next.js"],
     description:
-      "This is a fully responsive portfolio web/app built with Next.js. (Database integration is planned for the future.)",
+      "This is a fully responsive portfolio web/app built with Next.js. It showcases my current skills and projects.",
     skills: [
       ["Next", "/next.svg"],
       ["React", "/react.svg"],
       ["TypeScript", "/typescript.svg"],
+      ["Vercel", "/vercel.png"],
     ],
-    githubLink: "https://github.com/bruadarach",
-    liveDemoLink: "https://",
+    githubLink: "https://github.com/bruadarach/next-portfolio",
+    liveDemoLink: "https://github.com/bruadarach/next-portfolio",
   },
 ];
 

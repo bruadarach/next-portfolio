@@ -16,11 +16,10 @@
 }
 
 .projects {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
   align-items: stretch;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
 }
 
 .project {
@@ -34,6 +33,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  padding: 70px;
 }
 
 .imageSection {
@@ -58,7 +58,9 @@
 
 .tags {
   display: flex;
-  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
   margin-top: 10px;
   color: #b7b7b7;
   font-size: 15px;
