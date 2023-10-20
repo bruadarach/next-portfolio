@@ -40,6 +40,7 @@ export const ContactEmail = () => {
         (result) => {
           console.log(result.text);
           alert("Your message has been sent successfully!");
+          form.current?.reset();
         },
         (error) => {
           console.log(error.text);
