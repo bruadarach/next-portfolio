@@ -1,5 +1,6 @@
 import styles from "./about.module.css";
 import Image from "next/image";
+import { introduction } from "../../utils/data";
 
 const About = () => {
   return (
@@ -19,19 +20,17 @@ const About = () => {
           />
         </div>
         <div className={styles.textWrapper}>
-          <p>
-            I am a motivated frontend developer with a strong passion for
-            creating well-designed and functional web applications. <br />
-            <br />
-            While I primarily focus on frontend development, I have been
-            training myself to become a full-stack developer with a JavaScript
-            foundation. In particular, I have been emphasizing my studies on
-            React.js for the frontend and Node.js for the backend. <br />
-            <br />I love to learn new technologies and apply them to real-world
-            projects. I look forward to contributing to dynamic projects as a
-            team player and building user-friendly interfaces that leave a
-            lasting impression.
-          </p>
+          {introduction.map((item, index) => (
+            <p key={index} className={styles.text}>
+              {item}
+              {index < introduction.length - 1 && (
+                <>
+                  <br />
+                  <br />
+                </>
+              )}
+            </p>
+          ))}
         </div>
       </div>
     </section>
