@@ -23,12 +23,12 @@ export const socialAccounts = [
 ];
 
 export const introduction = [
-  `I am a motivated frontend developer with a strong passion for
+  `I am a motivated full-stack developer with a strong passion for
 creating well-designed and functional web applications.`,
   `While I primarily focus on frontend development, I have been
 training myself to become a full-stack developer with a JavaScript
 foundation. In particular, I have been emphasizing my studies on
-React.js for the frontend and Node.js for the backend.`,
+React.js for the frontend and Node.js for the backend with the MERN Stack.`,
   `I love to learn new technologies and apply them to real-world
 projects. I look forward to contributing to dynamic projects as a
 team player and building user-friendly interfaces that leave a
@@ -54,14 +54,14 @@ export const projects = [
       ["Firebase", "/firebase.svg"],
       ["Render", "/render.png"],
     ],
-    githubLink: "https://github.com/bruadarach/moongtels",
+    githubLink: "https://github.com/bruadarach/moongtel-refactored",
     liveDemoLink: "https://moongtels.onrender.com",
   },
   {
     name: "Moongtel",
     tags: ["#Front-end", "#Next.js", "#Recoil"],
     description:
-      "This is a team project in which I participated as a frontend developer. (At present, it is not connected to a server.)",
+      "This is a team project built with Next.js 12 and I participated as a frontend developer. (At present, it is not connected to a server.)",
     skills: [
       ["Next", "/next.svg"],
       ["React", "/react.svg"],
@@ -79,7 +79,7 @@ export const projects = [
     name: "Bruadarach",
     tags: ["#Full-stack", "#Next.js", "#Next-Auth"],
     description:
-      "This is a full-stack project, built with Next.js and integrated with MongoDB. It offers  OAuth by Next-Auth.",
+      "This is a full-stack project built with Next.js 13 and integrated with MongoDB. It offers  OAuth by Next-Auth.",
     skills: [
       ["Next", "/next.svg"],
       ["Next-Auth", "/next-auth.png"],
@@ -97,7 +97,7 @@ export const projects = [
     name: "Portfolio",
     tags: ["#Front-end", "#Next.js"],
     description:
-      "This is a fully responsive portfolio web/app built with Next.js. It showcases my current skills and projects.",
+      "This is a fully responsive portfolio web/app built with Next.js 13. It showcases my current skills and projects.",
     skills: [
       ["Next", "/next.svg"],
       ["React", "/react.svg"],
