@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./navbar.module.css";
 import Link from "next/link";
 import MobileMenu from "../mobileMenu/MobileMenu";
@@ -45,10 +45,25 @@ const Navbar = () => {
     };
   }, []);
 
+  const openMenu = () => {
+    document.body.style.overflowY = "hidden";
+    setOpen(!open);
+  };
+
+  const closeMenu = (
+    e:
+      | React.MouseEvent<HTMLLIElement, MouseEvent>
+      | React.MouseEvent<HTMLDivElement, MouseEvent>
+  ) => {
+    e.stopPropagation();
+    document.body.style.overflowY = "auto";
+    setOpen(false);
+  };
+
   return (
     <nav className={isScrolled ? styles.isScrolled : styles.sticky}>
       <div className={styles.container}>
-        <div className={styles.logo}>
+        <div className={styles.logo} onClick={(e) => closeMenu(e)}>
           <Link href="/">
             Suji<b>.</b>
           </Link>
@@ -63,7 +78,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className={styles.mobileMenu}>
-          <MobileMenu open={open} setOpen={setOpen} />
+          <MobileMenu open={open} openMenu={openMenu} closeMenu={closeMenu} />
         </div>
       </div>
     </nav>

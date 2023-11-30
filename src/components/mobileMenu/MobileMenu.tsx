@@ -4,13 +4,18 @@ import Link from "next/link";
 
 interface MobileMenuProps {
   open: boolean;
-  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  openMenu: () => void;
+  closeMenu: (
+    e:
+      | React.MouseEvent<HTMLLIElement, MouseEvent>
+      | React.MouseEvent<HTMLDivElement, MouseEvent>
+  ) => void;
 }
 
-const MobileMenu = ({ open, setOpen }: MobileMenuProps) => {
+const MobileMenu = ({ open, openMenu, closeMenu }: MobileMenuProps) => {
   return (
     <>
-      <div className={styles.hamburger} onClick={() => setOpen(!open)}>
+      <div className={styles.hamburger} onClick={() => openMenu()}>
         <div className={styles.line}></div>
         <div className={styles.line}></div>
         <div className={styles.line}></div>
@@ -22,7 +27,7 @@ const MobileMenu = ({ open, setOpen }: MobileMenuProps) => {
               <li
                 key={index}
                 className={styles.responsiveMenu}
-                onClick={() => setOpen(!open)}
+                onClick={(e) => closeMenu(e)}
               >
                 <Link href={link.path}>{link.title}</Link>
               </li>
