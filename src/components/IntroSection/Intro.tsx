@@ -11,7 +11,7 @@ const Intro = () => {
           Hello<b>,</b> I am
         </div>
         <div className={styles.name}>Sujeong Ji</div>
-        <div className={styles.job}>Full Stack Developoer</div>
+        <div className={styles.job}>Full Stack Developer</div>
         <DownloadPDF />
         <SocialAccount />
       </div>

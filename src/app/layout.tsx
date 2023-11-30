@@ -11,7 +11,8 @@ import {
 
 export const metadata: Metadata = {
   title: "Sujeong Ji",
-  description: "Portfolio built with Next.js and TypeScript",
+  description:
+    "This is a fully responsive portfolio web/app built with Next.js 13. It showcases my current skills and projects.",
 };
 
 export default function RootLayout({

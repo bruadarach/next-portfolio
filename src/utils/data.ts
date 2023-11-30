@@ -107,6 +107,20 @@ export const projects = [
     githubLink: "https://github.com/bruadarach/next-portfolio",
     liveDemoLink: "https://next-portfolio-bruadarach.vercel.app",
   },
+  {
+    name: "AI-Counsellor",
+    tags: ["#Front-end, #OpenAI_API", "#ToyProject"],
+    description:
+      "This is a toy project utilizing the OpenAI API. It delivers a personalized log, providing expert psychological insights, emotional analysis, and actionable plans.",
+    skills: [
+      ["OpenAI_API", "/openai.svg"],
+      ["React", "/react.svg"],
+      ["TypeScript", "/typescript.svg"],
+      ["Vite", "/vite.svg"],
+    ],
+    githubLink: "https://github.com/bruadarach/AI-counsellor",
+    liveDemoLink: "https://ai-counseling-psychologist.vercel.app",
+  },
 ];
 
 export const skills = {
