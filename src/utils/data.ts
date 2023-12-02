@@ -92,6 +92,8 @@ export const projects = [
     ],
     githubLink: "https://github.com/bruadarach/next-blog",
     liveDemoLink: "https://next-bruadarach.vercel.app",
+    documentLink:
+      "https://sujeongji.notion.site/Bruadarach-f16a235c05934b7db65a5f6a5102604f?pvs=4",
   },
   {
     name: "Portfolio",
@@ -120,6 +122,20 @@ export const projects = [
     ],
     githubLink: "https://github.com/bruadarach/AI-counsellor",
     liveDemoLink: "https://ai-counseling-psychologist.vercel.app",
+  },
+  {
+    name: "AI-Image-Generator",
+    tags: ["#Front-end, #OpenAI_API", "#ToyProject"],
+    description:
+      "This is a toy project harnessing the OpenAI API. It creates a brand-new image inspired by the text prompts provided by a user.",
+    skills: [
+      ["OpenAI_API", "/openai.svg"],
+      ["React", "/react.svg"],
+      ["TypeScript", "/typescript.svg"],
+      ["Vite", "/vite.svg"],
+    ],
+    githubLink: "https://github.com/bruadarach/AI-image-generator",
+    liveDemoLink: "https://ai-image-generator-sujeongji.vercel.app",
   },
 ];
 
