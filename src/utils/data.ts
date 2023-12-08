@@ -40,7 +40,7 @@ export const projects = [
     name: "Moongtel-refactored",
     tags: ["#Full-stack", "#MERN", "#Redux-toolkit"],
     description:
-      "This is a solo full-stack project that I refactored my previous team project, 'Moongtel'.",
+      "This is a solo full-stack project that I refactored my previous team project, 'Moongtel'. It's a reservation website, built on the MERN stack.",
     skills: [
       ["React", "/react.svg"],
       ["TypeScript", "/typescript.svg"],
@@ -91,7 +91,7 @@ export const projects = [
       ["Vercel", "/vercel.png"],
     ],
     githubLink: "https://github.com/bruadarach/next-blog",
-    liveDemoLink: "https://next-bruadarach.vercel.app",
+    liveDemoLink: "https://www.sujeongji.com/",
     documentLink:
       "https://sujeongji.notion.site/Bruadarach-f16a235c05934b7db65a5f6a5102604f?pvs=4",
   },
@@ -99,7 +99,7 @@ export const projects = [
     name: "Portfolio",
     tags: ["#Front-end", "#Next.js"],
     description:
-      "This is a fully responsive portfolio web/app built with Next.js 13. It showcases my current skills and projects.",
+      "This is a fully responsive portfolio web app built with Next.js 13. It showcases my current skills and projects.",
     skills: [
       ["Next", "/next.svg"],
       ["React", "/react.svg"],
@@ -111,7 +111,7 @@ export const projects = [
   },
   {
     name: "AI-Counsellor",
-    tags: ["#Front-end, #OpenAI_API", "#ToyProject"],
+    tags: ["#Front-end, #OpenAI_API"],
     description:
       "This is a toy project utilizing the OpenAI API. It delivers a personalized log, providing expert psychological insights, emotional analysis, and actionable plans.",
     skills: [
@@ -125,9 +125,9 @@ export const projects = [
   },
   {
     name: "AI-Image-Generator",
-    tags: ["#Front-end, #OpenAI_API", "#ToyProject"],
+    tags: ["#Front-end, #OpenAI_API"],
     description:
-      "This is a toy project harnessing the OpenAI API. It creates a brand-new image inspired by the text prompts provided by a user.",
+      "This is a toy project using the OpenAI API. It generates an image from scratch from the text description provided by a user.",
     skills: [
       ["OpenAI_API", "/openai.svg"],
       ["React", "/react.svg"],
@@ -138,6 +138,9 @@ export const projects = [
     liveDemoLink: "https://ai-image-generator-sujeongji.vercel.app",
   },
 ];
+
+export const cv =
+  "https://drive.google.com/file/d/1S-PNG1KZg3WJpjgdm4bhDjXk7jJ2PI3W/view?usp=sharing";
 
 export const skills = {
   frontend: [

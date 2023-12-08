@@ -24,7 +24,7 @@
   padding: 60px 50px;
   font-family: var(--font-nunito-sans);
   font-weight: 500;
-  border: 0.9px solid #a1a1a1;
+  border: 0.9px solid #ccc;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
