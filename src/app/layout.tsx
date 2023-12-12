@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import type { Metadata } from "next";
 import {
@@ -8,11 +9,10 @@ import {
   archivoBlack,
   nunitoSans,
 } from "./fonts";
-
 export const metadata: Metadata = {
   title: "Sujeong Ji",
   description:
-    "This is a fully responsive portfolio web/app built with Next.js 13. It showcases my current skills and projects.",
+    "This is a fully responsive portfolio web app built with Next.js 13.",
 };
 
 export default function RootLayout({
@@ -28,6 +28,7 @@ export default function RootLayout({
         <div className="container">
           <div className="wrapper">{children}</div>
         </div>
+        <Analytics />
       </body>
     </html>
   );
