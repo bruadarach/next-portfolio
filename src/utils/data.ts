@@ -107,7 +107,7 @@ export const projects = [
       ["Vercel", "/vercel.png"],
     ],
     githubLink: "https://github.com/bruadarach/next-portfolio",
-    liveDemoLink: "https://next-portfolio-bruadarach.vercel.app",
+    liveDemoLink: "https://www.sujeongji.com",
   },
   {
     name: "AI-Counsellor",
@@ -140,7 +140,7 @@ export const projects = [
 ];
 
 export const cv =
-  "https://drive.google.com/file/d/1S-PNG1KZg3WJpjgdm4bhDjXk7jJ2PI3W/view?usp=sharing";
+  "https://drive.google.com/file/d/1Wrlwp5Xo38BDxfHh4Hy3ocf6UoGrDbIP/view?usp=sharing";
 
 export const skills = {
   frontend: [
