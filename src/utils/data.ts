@@ -25,7 +25,7 @@ export const socialAccounts = [
 export const introduction = [
   `I am a motivated full-stack developer with a strong passion for
 creating well-designed and functional web applications.`,
-  `While I primarily focus on frontend development, I have been
+  `While I primarily focus on front-end development, I have been
 training myself to become a full-stack developer with a JavaScript
 foundation. In particular, I have been emphasizing my studies on
 React.js for the frontend and Node.js for the backend with the MERN Stack.`,
