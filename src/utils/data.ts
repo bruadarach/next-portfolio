@@ -91,7 +91,7 @@ export const projects = [
       ["Vercel", "/vercel.png"],
     ],
     githubLink: "https://github.com/bruadarach/next-blog",
-    liveDemoLink: "https://www.sujeongji.com/",
+    liveDemoLink: "https://next-bruadarach.vercel.app",
     documentLink:
       "https://sujeongji.notion.site/Bruadarach-f16a235c05934b7db65a5f6a5102604f?pvs=4",
   },
