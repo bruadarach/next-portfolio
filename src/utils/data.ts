@@ -75,6 +75,7 @@ export const projects = [
     ],
     githubLink: "https://github.com/codestates-seb/seb39_main_012",
     liveDemoLink: "https://moongtel.vercel.app/",
+    documentLink: "https://github.com/codestates-seb/seb39_main_012",
   },
 
   {
@@ -142,7 +143,7 @@ export const projects = [
 ];
 
 export const cv =
-  "https://drive.google.com/file/d/1Wrlwp5Xo38BDxfHh4Hy3ocf6UoGrDbIP/view?usp=sharing";
+  "https://drive.google.com/file/d/18kl5tS0txtX4y6ENRPzhvruAqXY1VZ0U/view?usp=sharing";
 
 export const skills = {
   frontend: [
