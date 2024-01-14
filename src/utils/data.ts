@@ -55,7 +55,7 @@ export const projects = [
       ["Render", "/render.png"],
     ],
     githubLink: "https://github.com/bruadarach/moongtel-refactored",
-    liveDemoLink: "https://moongtels-server.onrender.com/",
+    liveDemoLink: "https://moongtels.onrender.com/",
     documentLink:
       "https://sujeongji.notion.site/Moongtel-cont-c2737afcb751487b9a20260127f5b885?pvs=4",
   },
