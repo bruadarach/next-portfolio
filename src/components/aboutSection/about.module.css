@@ -77,6 +77,12 @@
   }
 }
 
+@media screen and (max-width: 420px) {
+  .textWrapper p {
+    text-align: left;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .title {
     font-size: 38px;

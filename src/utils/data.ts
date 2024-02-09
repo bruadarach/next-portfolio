@@ -40,7 +40,7 @@ export const projects = [
     name: "Moongtel-refactored",
     tags: ["#Full-stack", "#MERN", "#Redux-toolkit"],
     description:
-      "This is a solo full-stack project that I refactored my previous team project, 'Moongtel'. It's a reservation website, built on the MERN stack.",
+      "This web application is a platform that facilitates hotel reservations, especially for pet-dedicated hotels. This is a solo full-stack project that I refactored my previous team project, 'Moongtel'.",
     skills: [
       ["React", "/react.svg"],
       ["TypeScript", "/typescript.svg"],
@@ -60,10 +60,30 @@ export const projects = [
       "https://sujeongji.notion.site/Moongtel-cont-c2737afcb751487b9a20260127f5b885?pvs=4",
   },
   {
+    name: "Bruadarach",
+    tags: ["#Full-stack", "#Next.js", "#Next-Auth"],
+    description:
+      "This web application provides information on Korean culture, events, and news to help foreigners living in Korea. This full-stack project is built with Next.js 13 and integrated with MongoDB",
+    skills: [
+      ["Next", "/next.svg"],
+      ["Next-Auth", "/next-auth.png"],
+      ["React", "/react.svg"],
+      ["TypeScript", "/typescript.svg"],
+      ["MongoDB", "/mongodb.svg"],
+      ["Prisma", "/prisma.svg"],
+      ["Firebase", "/firebase.svg"],
+      ["Vercel", "/vercel.png"],
+    ],
+    githubLink: "https://github.com/bruadarach/next-bruadarach",
+    liveDemoLink: "https://next-bruadarach.vercel.app",
+    documentLink:
+      "https://sujeongji.notion.site/Bruadarach-f16a235c05934b7db65a5f6a5102604f?pvs=4",
+  },
+  {
     name: "Moongtel",
     tags: ["#Front-end", "#Next.js", "#Recoil"],
     description:
-      "This is a team project built with Next.js 12 and I participated as a frontend developer. (At present, it is not connected to a server.)",
+      "This was a team project built with Next.js 12 and I participated as a frontend developer. (At present, it is not connected to a server.)",
     skills: [
       ["Next", "/next.svg"],
       ["React", "/react.svg"],
@@ -75,34 +95,13 @@ export const projects = [
     ],
     githubLink: "https://github.com/codestates-seb/seb39_main_012",
     liveDemoLink: "https://moongtel.vercel.app/",
-    documentLink: "https://github.com/codestates-seb/seb39_main_012",
   },
 
-  {
-    name: "Bruadarach",
-    tags: ["#Full-stack", "#Next.js", "#Next-Auth"],
-    description:
-      "This is a full-stack project built with Next.js 13 and integrated with MongoDB. It offers  OAuth by Next-Auth.",
-    skills: [
-      ["Next", "/next.svg"],
-      ["Next-Auth", "/next-auth.png"],
-      ["React", "/react.svg"],
-      ["TypeScript", "/typescript.svg"],
-      ["MongoDB", "/mongodb.svg"],
-      ["Prisma", "/prisma.svg"],
-      ["Firebase", "/firebase.svg"],
-      ["Vercel", "/vercel.png"],
-    ],
-    githubLink: "https://github.com/bruadarach/next-blog",
-    liveDemoLink: "https://next-bruadarach.vercel.app",
-    documentLink:
-      "https://sujeongji.notion.site/Bruadarach-f16a235c05934b7db65a5f6a5102604f?pvs=4",
-  },
   {
     name: "Portfolio",
     tags: ["#Front-end", "#Next.js"],
     description:
-      "This is a fully responsive portfolio web app built with Next.js 13. It showcases my current skills and projects.",
+      "This is a fully responsive portfolio web application built with Next.js 13. It showcases my current skills and projects.",
     skills: [
       ["Next", "/next.svg"],
       ["React", "/react.svg"],
@@ -143,7 +142,7 @@ export const projects = [
 ];
 
 export const cv =
-  "https://drive.google.com/file/d/18kl5tS0txtX4y6ENRPzhvruAqXY1VZ0U/view?usp=sharing";
+  "https://drive.google.com/file/d/1tuO55JkHlj18IL4R1GFkXnTFK-4VRnW7/view?usp=sharing";
 
 export const skills = {
   frontend: [

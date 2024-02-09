@@ -48,16 +48,6 @@ const Portfolio = () => {
                 </div>
               </div>
               <div className={styles.links}>
-                {/* <div className={styles.link}>
-                  <Link
-                    href={project.githubLink}
-                    target="_blank"
-                    passHref
-                    rel="noopener noreferrer"
-                  >
-                    Github
-                  </Link>
-                </div> */}
                 <div className={styles.link}>
                   <Link
                     href={project.liveDemoLink}
@@ -65,10 +55,10 @@ const Portfolio = () => {
                     passHref
                     rel="noopener noreferrer"
                   >
-                    Live Demo
+                    <span>Live</span> Demo
                   </Link>
                 </div>
-                {project.documentLink && (
+                {project.documentLink ? (
                   <div className={styles.link}>
                     <Link
                       href={project.documentLink}
@@ -79,7 +69,17 @@ const Portfolio = () => {
                       Doc
                     </Link>
                   </div>
-                )}
+                ) : null}
+                <div className={styles.link}>
+                  <Link
+                    href={project.githubLink}
+                    target="_blank"
+                    passHref
+                    rel="noopener noreferrer"
+                  >
+                    Github
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
