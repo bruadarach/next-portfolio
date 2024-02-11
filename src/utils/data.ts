@@ -38,7 +38,7 @@ lasting impression.`,
 export const projects = [
   {
     name: "Moongtel-refactored",
-    tags: ["#Full-stack", "#MERN", "#Redux-toolkit"],
+    tags: ["#Fullstack", "#MERN", "#Redux-toolkit"],
     description:
       "This web application is a platform that facilitates hotel reservations, especially for pet-dedicated hotels. This is a solo full-stack project that I refactored my previous team project, 'Moongtel'.",
     skills: [
@@ -61,7 +61,7 @@ export const projects = [
   },
   {
     name: "Bruadarach",
-    tags: ["#Full-stack", "#Next.js", "#Next-Auth"],
+    tags: ["#Fullstack", "#Next.js", "#Next-Auth"],
     description:
       "This web application provides information on Korean culture, events, and news to help foreigners living in Korea. This full-stack project is built with Next.js 13 and integrated with MongoDB",
     skills: [
@@ -80,8 +80,22 @@ export const projects = [
       "https://sujeongji.notion.site/Bruadarach-f16a235c05934b7db65a5f6a5102604f?pvs=4",
   },
   {
+    name: "Portfolio",
+    tags: ["#Frontend", "#Next.js"],
+    description:
+      "This is a fully responsive portfolio web application built with Next.js 13. It showcases my current skills and projects.",
+    skills: [
+      ["Next", "/next.svg"],
+      ["React", "/react.svg"],
+      ["TypeScript", "/typescript.svg"],
+      ["Vercel", "/vercel.png"],
+    ],
+    githubLink: "https://github.com/bruadarach/next-portfolio",
+    liveDemoLink: "https://www.sujeongji.com",
+  },
+  {
     name: "Moongtel",
-    tags: ["#Front-end", "#Next.js", "#Recoil"],
+    tags: ["#Frontend", "#Next.js", "#Recoil"],
     description:
       "This was a team project built with Next.js 12 and I participated as a frontend developer. (At present, it is not connected to a server.)",
     skills: [
@@ -96,53 +110,10 @@ export const projects = [
     githubLink: "https://github.com/codestates-seb/seb39_main_012",
     liveDemoLink: "https://moongtel.vercel.app/",
   },
-
-  {
-    name: "Portfolio",
-    tags: ["#Front-end", "#Next.js"],
-    description:
-      "This is a fully responsive portfolio web application built with Next.js 13. It showcases my current skills and projects.",
-    skills: [
-      ["Next", "/next.svg"],
-      ["React", "/react.svg"],
-      ["TypeScript", "/typescript.svg"],
-      ["Vercel", "/vercel.png"],
-    ],
-    githubLink: "https://github.com/bruadarach/next-portfolio",
-    liveDemoLink: "https://www.sujeongji.com",
-  },
-  {
-    name: "AI-Counsellor",
-    tags: ["#Front-end, #OpenAI_API"],
-    description:
-      "This is a toy project utilizing the OpenAI API. It delivers a personalized log, providing expert psychological insights, emotional analysis, and actionable plans.",
-    skills: [
-      ["OpenAI_API", "/openai.svg"],
-      ["React", "/react.svg"],
-      ["TypeScript", "/typescript.svg"],
-      ["Vite", "/vite.svg"],
-    ],
-    githubLink: "https://github.com/bruadarach/AI-counsellor",
-    liveDemoLink: "https://ai-counseling-psychologist.vercel.app",
-  },
-  {
-    name: "AI-Image-Generator",
-    tags: ["#Front-end, #OpenAI_API"],
-    description:
-      "This is a toy project using the OpenAI API. It generates an image from scratch from the text description provided by a user.",
-    skills: [
-      ["OpenAI_API", "/openai.svg"],
-      ["React", "/react.svg"],
-      ["TypeScript", "/typescript.svg"],
-      ["Vite", "/vite.svg"],
-    ],
-    githubLink: "https://github.com/bruadarach/AI-image-generator",
-    liveDemoLink: "https://ai-image-generator-sujeongji.vercel.app",
-  },
 ];
 
 export const cv =
-  "https://drive.google.com/file/d/1tuO55JkHlj18IL4R1GFkXnTFK-4VRnW7/view?usp=sharing";
+  "https://drive.google.com/file/d/1J5Zu3avV6S1jqWu-4x2KFXUVylJCHYpG/view?usp=sharing";
 
 export const skills = {
   frontend: [

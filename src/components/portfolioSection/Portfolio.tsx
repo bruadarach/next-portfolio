@@ -77,7 +77,7 @@ const Portfolio = () => {
                     passHref
                     rel="noopener noreferrer"
                   >
-                    Github
+                    GitHub
                   </Link>
                 </div>
               </div>
