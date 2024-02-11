@@ -113,7 +113,7 @@ export const projects = [
 ];
 
 export const cv =
-  "https://drive.google.com/file/d/1J5Zu3avV6S1jqWu-4x2KFXUVylJCHYpG/view?usp=sharing";
+  "https://drive.google.com/file/d/1eTJHLWQPnR3qUObZuIG1VZTobxgMNer8/view?usp=sharing";
 
 export const skills = {
   frontend: [
