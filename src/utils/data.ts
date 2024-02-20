@@ -25,12 +25,12 @@ export const socialAccounts = [
 export const introduction = [
   `I am a motivated full-stack developer with a strong passion for
 creating well-designed and functional web applications.`,
-  `While I primarily focus on front-end development, I have been
-training myself to become a full-stack developer with a JavaScript
-foundation. In particular, I have been emphasizing my studies on
-React.js for the frontend and Node.js for the backend with the MERN Stack.`,
-  `I love to learn new technologies and apply them to real-world
-projects. I look forward to contributing to dynamic projects as a
+  `While my primary focus is on front-end development, I have been actively
+honing my skills to become proficient in full-stack development with a JavaScript
+foundation.`,
+  `I love learning new technologies and apply them to real-world
+projects. I also aspire to engage in work that inspires and empowers people through technology.`,
+  `I look forward to contributing to dynamic projects as a
 team player and building user-friendly interfaces that leave a
 lasting impression.`,
 ];
@@ -113,7 +113,7 @@ export const projects = [
 ];
 
 export const cv =
-  "https://drive.google.com/file/d/1rd8KtuIxBGN9LP4ODMmeUF7tChHJsvO2/view?usp=sharing";
+  "https://drive.google.com/file/d/1wLfaXAvpGYTZVXjJNNhGh-CT2UxEMXE2/view?usp=sharing";
 
 export const skills = {
   frontend: [
